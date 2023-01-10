@@ -6,8 +6,9 @@ export interface Props {
   color?: 'primary' | 'secondary' | 'danger';
 }
 
-function Button({ children, color }: Props) {
 
+
+function Button({ children, color }: Props) {
   return <ButtonStyled>{children}</ButtonStyled>;
 }
 
